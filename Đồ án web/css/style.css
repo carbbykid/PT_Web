@@ -10,25 +10,37 @@ header
 	background-size: cover;
 	background-position: center;
 }
+/*Menu*/
 .main-nav
 {
 	float:right;
+	margin-right: 250px;
 	list-style:none;
-	margin-top: 40px;
+	margin-top: 0px;
+	background: black;
+	text-align: center;
+	display: block;
+
+
 }
 .main-nav li
 {
 	display: inline-block;
+	width:120px;
+	height: 40px;
+	line-height: 40px;
+	
 }
 
 
 .main-nav li a
 {
-	color: black;
+	color: #797971;
 	text-decoration: none;
 	padding: 5px 20px;
-	font-family: "Roboto",sans-serif;
+	font-family: "Opensans",sans-serif;
 	font-size:15px;
+
 }
 .main-nav li.active a
 {
@@ -38,12 +50,21 @@ header
 {
 	border:2px solid white;
 }
+
+.main-nav li >.product {
+	display:none;
+}
+
+.main-nav li:hover .product {
+	display:block;
+}
+
 .logo img
 {
-	width:90px;
+	width:70px;
 	height: auto;
 	float:left;
-	margin-top:20px 
+	margin-top:0px 
 }
 body
 {
@@ -57,9 +78,9 @@ body
 .hero
 {
 	position:absolute;
-	width:1600px;
+	width:1400px;
 	margin-top: 0px;
-	margin-left: 0px;
+	margin-left: 100px;
 }
 
 h1
@@ -74,7 +95,7 @@ h1
 .button
 {
 	margin-top:30px;
-	margin-left: 640px;
+	margin-left: 530px;
 }
 .btn
 {
