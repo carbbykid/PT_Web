@@ -1,0 +1,439 @@
+﻿
+html {
+	font-family: 'Times New Roman';
+}
+body {
+	background-color: #f9f9f5;
+	margin: 0;
+	padding-top: 19px;
+}
+
+p {
+    line-height: 3.5;
+}
+
+#background {
+	background: url(../images/background.jpg) repeat;
+	min-height: 1420px;
+	border-top: 0px solid #cc9f0f;
+}
+#page {
+	width: 960px;
+	margin: 0 auto;
+}
+@font-face {
+	font-family: 'CorbenBold';
+	src: url('fonts/corben-bold-webfont.eot');
+	src: local('?'), url('fonts/corben-bold-webfont.woff') format('woff'), 
+		url('fonts/corben-bold-webfont.ttf') format('truetype'), 
+		url('fonts/corben-bold-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+img {
+	border: 0;
+}
+
+
+/*------------------------MENU-----------------*/
+#menu ul {
+  background: #1F568B;
+  list-style-type: none;
+  
+  text-align: center;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  font-size: 25px;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 0px;
+  position: relative;
+  
+
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+
+/*-------------------Dropdown Menu------------------*/
+.sub-menu li {
+  display: none;
+}
+
+.sub-menu {
+ display: none;
+ position: absolute;
+}
+
+#menu li:hover .sub-menu {
+ display: block;
+}
+.sub-menu li {
+ margin-left: 0 !important;
+}
+
+
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	background: url(../images/header.png) no-repeat center top;
+	min-height: 220px;
+	margin-bottom: 40px;
+    /*position: absolute;*/
+}
+
+#connect {
+	float: left;
+	display: inline-block;
+	height: 30px;
+	width: 300px;
+	margin: 15px 0 15px 10px;
+}
+#connect a {
+	display: inline-block;
+	height: 30px;
+	margin: 0 10px;
+	padding: 0;
+}
+
+
+#infos {
+	float: right;
+	color: #0101DF;
+	display: inline-block;
+	height: 30px;
+	width: 200px;
+	margin: 15px 0;
+}
+#infos  a {
+	color: #0101DF;
+	font-family: Times New Roman;
+	font-size: 14px;
+	line-height: 30px;
+	margin: 0 5px;
+	text-decoration: none;
+}
+
+/** Logo **/
+#logo {
+	clear: both;
+	display: block;
+	height: 217px;
+	width: 950px;
+	margin: 0 auto;
+}
+
+
+
+/*------------------------------ CONTENTS ------------------------------*/
+#container{
+    height: 100%;
+            width:800px;
+            border:1px solid gray;
+            margin-left:auto;
+            margin-right:auto;
+}
+
+
+#contents {
+    position: absolute;
+    
+	margin: 0 0 40px;
+	padding: 0 5px;
+}
+
+#main {
+	
+	margin: 0 0 30px;
+	padding: 0 0 30px;
+}
+#main p {
+	color: #071418;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0 0 20px;
+}
+#main p a {
+	color: #755a0b;
+}
+#main address {
+	color: #ffffff;
+	font-style: normal;
+	width: 350px;
+	margin: 0 auto;
+	text-align: center;
+}
+#main address span {
+	color: #9d7912;
+	display: block;
+	font-family: /*'CorbenBold'*/ 'Times New Roman';
+	font-size: 18px;
+	line-height: 20px;
+	margin: 20px 0;
+	width: 350px;
+}
+
+#adbox {
+	
+	height: 371px;
+	width: 935px;
+	margin: 0 auto;
+	padding: 7px 7px 22px;
+	position: relative;
+}
+#adbox img {
+	height: 371px;
+	width: 935px;
+	margin: auto;
+}
+
+#featured {
+	
+	padding: 0 0 42px;
+	position: relative;
+}
+#featured ul {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+#featured ul li {
+	float: left;
+	
+	height: 253px;
+	width: 204px;
+	margin-right: 28px;
+	padding: 6px 6px 15px;
+}
+#featured ul li.last {
+	margin-right: 0;
+}
+#featured ul li img {
+	border: 1px solid #e4e0d1;
+}
+#featured a.button {
+	background: url(../images/bg-button.jpg) no-repeat;
+	color: #8e7217;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 18px;
+	height: 30px;
+	line-height: 30px;
+	width: 144px;
+	padding: 4px 0 6px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	bottom: -20px;
+	left: 403px;
+}
+
+/*------------------------------ Tin tức Page ------------------------------*/
+#blogs {
+	
+	padding: 0 0 20px;
+	position: relative;
+}
+#blogs div {
+	
+	display: inline-block;
+	margin: 0 0 20px;
+	padding: 0 0 20px;
+}
+#blogs div.last {
+	background: none;
+	margin: 0;
+}
+#blogs span {
+	float: left;
+	
+	display: block;
+	height: 253px;
+	width: 204px;
+	margin-bottom: 6px;
+	margin-right: 40px;
+	padding: 6px 6px 15px;
+}
+#blogs span img {
+	border: 1px solid #e4e0d1;
+}
+#blogs h3 {
+	
+	line-height: 30px;
+	margin: 0 0 20px 258px;
+	padding: 0 0 10px;
+}
+#blogs p {
+	color: #ffffff;
+	max-height: 160px;
+	line-height: 20px;
+	margin: 0 0 20px 258px;
+	padding: 0 0 20px;
+	overflow: hidden;
+}
+#blogs p a {
+	color: #ffffff;
+}
+#blogs a.more {
+	color: #000000;
+	font-style: italic;
+	text-decoration: none;
+}
+#blogs div.buttons, #blogs div.blog-entry-buttons {
+	background: none;
+	display: inline-block;
+	width: 328px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: -20px;
+	left: 311px;
+}
+#blogs div.buttons a, #blogs div.blog-entry-buttons a {
+	float: left;
+	background: url(../images/bg-button.jpg) no-repeat;
+	color: #8e7217;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 18px;
+	height: 30px;
+	line-height: 30px;
+	width: 144px;
+	margin-right: 20px;
+	padding: 4px 0 6px;
+	text-align: center;
+	text-decoration: none;
+}
+#blogs div.blog-entry-buttons {
+	width: 690px;
+	left: 258px;
+}
+#blogs div.blog-entry-buttons a.back {
+	float: right;
+	font-size: 16px;
+	margin-right: 0;
+}
+
+/*------------------------------ Shop Page ------------------------------*/
+#shop {
+	
+	padding: 0 0 20px;
+	position: relative;
+}
+#shop ul.items {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 auto 16px;
+	padding: 0;
+}
+#shop ul.items li {
+	float: left;
+	color: #ffd800;
+	height: 340px;
+	width: 216px;
+	margin-bottom: 20px;
+	margin-right: 28px;
+}
+#shop ul.items li span {
+	
+	display: block;
+	height: 253px;
+	width: 204px;
+	margin-bottom: 10px;
+	padding: 6px 6px 14px;
+}
+#shop ul.items li span img {
+	border: 1px solid #e4e0d1;
+}
+#shop ul.items li span.price {
+	float: right;
+	background: none;
+	color: #ffffff;
+	
+	font-size: 17px;
+	height: 20px;
+	line-height: 20px;
+	width: 80px;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+#shop ul.items li a.buy {
+	background-color: #fff36b;
+	color: #8f6f05;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+	width: 80px;
+	border-radius: 3px;
+	margin: 13px auto 0;
+	padding: 1px 0 4px;
+	text-align: center;
+	text-decoration: none;
+}
+#shop ul.items li.last {
+	margin-right: 0;
+}
+
+/*------------------------------ FOOTER ------------------------------*/
+#footer {
+    /*background-color: #ccc;*/
+    /*position: absolute;*/
+    position: absolute;
+    top: 1160px;
+    bottom: 0;
+    left: 50px;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer div.navigation {
+    
+	color: #ffffff;
+	font-size: 25px;
+	line-height: 10px;
+	width: /*400px*/ 620px;
+	margin: 0 auto 10px;
+	text-shadow: 0 1px 0 #af9e31;
+}
+#footer div.navigation a {
+	color: #ffffff;
+	padding: 0 10px;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #af9e31;
+}
+#footer div.navigation a:hover {
+	color: #9d7912;
+}
+
+/*------------------------------ For IE6 ------------------------------*/
+#background {
+	_height: 1440px;
+}
+
+#featured a.button {
+	_top: 299px;
+}
+
+#blogs {
+	_height: 620px;
+}
+#blogs div.buttons, #blogs div.blog-entry-buttons {
+	_top: 600px;
+}
+
