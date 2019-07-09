@@ -177,21 +177,28 @@ footer{
 }
 .sanpham{
   width: 282px;
-  height: 412.08px
+  height: 412.08px;
+  position: relative;
+  
 }
 .anhsp img{
   width: 281.52px;
   height: 343.08px;
+  position: absolute;
+  top:0;
+}
+
+.title{
+  position: absolute;
+  bottom: 0;
 }
 .tensp{
   width: 281.52px;
-  height: 24px;
   color: #4B515D;
   font-weight: bold;
 }
 .giasp{
   width:281.52px;
-  height: 28px;
   color:#373d49;
 }
 
