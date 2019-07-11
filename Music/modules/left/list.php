@@ -4,7 +4,7 @@
 ?>
 <div class="box_list">
             <div class="tieude">
-            	<h3>Loại phụ kiện</h3>
+            	<h3>Loại sản phẩm</h3>
             </div>
             	<ul class="list">
                 <?php

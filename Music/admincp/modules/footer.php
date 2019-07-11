@@ -1,4 +1,4 @@
-<div class="footer">
-	Copyright 2017
+﻿<div class="footer">
+	WEBSITE BÁN DỤNG CỤ ÂM NHẠC SH SHOP
 
 </div>

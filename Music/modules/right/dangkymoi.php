@@ -16,14 +16,9 @@
 	
 
 <div class="tieude">
-	HOAN NGHÊNH QUÝ BẠN ĐẶT HÀNG TẠI XƯỞNG PHỤ KIỆN
+	Mời quý khách nhập thông tin đăng ký
 </div>
-<div class="thongbao">
-	<p><img src="imgs/chu-y-mua-hang.gif" width="100" height="50"></p>
-	<p style="color:blue;">- Vui lòng không đặt số lượng 1 sản phẩm</p>
-    <p style="color:blue;">- Không đặt đơn hàng có tổng giá trị dưới 200.000đ</p>
-    <p style="color:blue;">- Đơn hàng nhiều sản phẩm. Vui lòng liệt kê danh sách + số lượng qua Email, Zalo</p>
-</div>
+
 <div class="dangky">
   <p style="font-size:18px; color:blue;margin:5px;">Các mục dấu * là bắt buộc tối thiểu. Vui lòng điền đầy đủ và chính xác (Số nhà, Ngõ, thôn xóm/ấp, Phường/xã, huyện/quận, tỉnh, TP)</p>
   <form action="" method="post" enctype="multipart/form-data">
@@ -57,9 +52,12 @@
     </tr>
 </table>
 </form>
+</div>
+
 <div class="ghichu">
 	<p>Ghi chú nếu có :</p>
 	<textarea name="ghichu">
     
     </textarea>
+</div>
 

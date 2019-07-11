@@ -9,7 +9,7 @@ body{
 table{
 	border-collapse:collapse;
 	width:100%;
-	background-color:#FC6;
+	background-color:#8CE8F2;
 	border:1px solid #F00;
 }
 textarea{
@@ -39,7 +39,7 @@ input{
 	height:40px;
 	
 	margin-top:2px;
-	background:#F90;
+	background:#0D8A98;
 	
 }
 .menu ul{
@@ -47,7 +47,7 @@ input{
 	list-style:none;
 }
 .menu ul li{
-	width:150px;
+	width:200px;
 	text-align:center;
 	float:left;
 	line-height:40px;
@@ -55,7 +55,7 @@ input{
 }
 .menu ul li a{
 	display:block;
-	color:#900;
+	color:#fff;
 	text-decoration:none;
 	font-size:18px;
 }
@@ -70,7 +70,7 @@ input{
 	text-align:center;
 	line-height:120px;
 	font-size:40px;
-	color:#F90;
+	color:#06839C;
 	
 }
 .content{
@@ -93,7 +93,7 @@ input{
 	text-align:center;
 	line-height:120px;
 	font-size:40px;
-	color:#F90;
+	color:#06839C;
 	margin-top:5px;
 	
 	

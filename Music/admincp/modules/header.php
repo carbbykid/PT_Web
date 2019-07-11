@@ -1,3 +1,3 @@
-<div class="header">
-    	<h3>Welcome to admincp</h3>
+﻿<div class="header">
+    	<h3>TRANG QUẢN TRỊ SH SHOP</h3>
     </div>
